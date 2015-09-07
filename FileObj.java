@@ -1,4 +1,8 @@
 // Stores the file as a md5 hash String and integer as size
+// Also uses its own equals and hashcode methods to allow usage of sorting
+// and sets.
+// additionally a toString method is included to allow for printing
+// or debugging purposes
 public class FileObj {
    private String md5;
    private int size;
